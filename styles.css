@@ -1,0 +1,68 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #FFFBF1;
+    color: #000
+}
+
+header h1 {
+    color: #946D51;
+    font-size: 46px;
+    font-weight: 800;
+    letter-spacing: 0.25em;
+    margin: 50px auto;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.cocktails {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+ }
+
+.menu {
+    border: solid 1px #946D51;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 30px;
+    margin-top: 1em;
+}
+
+.menu h3 {
+    margin-top: 2em;
+    margin-bottom: -0.3em;
+}
+
+.menu p {
+    line-height: 1;
+}
+
+.illustration {
+    display: flex;
+}
+
+.illustration #fox {
+    height: 300px;
+    margin: 50px auto;
+}
+
+.contact {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.contact h3 {
+    margin-right: 10px;
+}
+
+.contact img {
+    width: 20px;
+    margin: 0px 10px;
+}
