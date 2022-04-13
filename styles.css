@@ -84,6 +84,13 @@ header h1 {
         align-content: center;
      }
 
+     .menu {
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+     }
+
      .illustration #fox {
         height: 150px;
         margin: 25px auto;
