@@ -13,6 +13,10 @@
     text-align: center;
 }
 
+h3 {
+    font-size: 1rem;
+}
+
 .menu h3 {
     margin-top: 2rem;
 }
