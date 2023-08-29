@@ -1,0 +1,103 @@
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    background-color: #FFFBF1;
+    color: #000
+    }
+
+header h1 {
+    color: #946D51;
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 0.253em;
+    margin: 50px auto;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.cocktails {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+ }
+
+.menu {
+    border: solid 1px #946D51;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.menu h3 {
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-bottom: -0.3rem;
+}
+
+.menu p {
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.illustration {
+    display: flex;
+}
+
+.illustration #fox {
+    height: 300px;
+    margin: 50px auto;
+}
+
+.contact {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.contact h3 {
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.contact img {
+    width: 20px;
+    margin: 0px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    html {
+        font-size: 12px;
+    }
+
+    .cocktails {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-content: center;
+     }
+
+     .menu {
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+     }
+
+     .illustration #fox {
+        height: 150px;
+        margin: 25px auto;
+    }
+
+    .contact h3 {
+        display:none;
+    }
+}
