@@ -17,7 +17,7 @@ export function createMenu() {
         { name: 'Flädermojito', description: 'Ljus rom, mynta från grannen, lime & hemmakokt flädersaft' },
         { name: 'Gold Rush', description: 'Bourbon, honung & citron' },
         { name: 'Gin & Tonic', description: 'Gin. Tonic.' },
-        { name: 'Daiguiri', description: 'Ljus rom, lime & socker' },
+        { name: 'Daiquiri', description: 'Ljus rom, lime & socker' },
         { name: 'Last Word', description: 'Gin, Maraschinolikör, Grön Chartreuse & lime' },
         { name: 'Queen´s Dubonnet', description: 'Gin, Dubonnet & citronskiva' },
         { name: 'White Cuban', description: 'Mörk rom, Kahlùa, grädde & choklad' }
