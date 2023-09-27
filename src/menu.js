@@ -14,7 +14,14 @@ export function createMenu() {
     const menuItems = [
         { name: 'Negroni', description: 'Gin, söt vermouth & Campari' },
         { name: 'Mojito', description: 'Ljus rom, lime, socker & mynta' },
-        { name: 'Flädermojito', description: 'Ljus rom, mynta från grannen, lime & hemmakokt flädersaft' }
+        { name: 'Flädermojito', description: 'Ljus rom, mynta från grannen, lime & hemmakokt flädersaft' },
+        { name: 'Gold Rush', description: 'Bourbon, honung & citron' },
+        { name: 'Gin & Tonic', description: 'Gin. Tonic.' },
+        { name: 'Daiguiri', description: 'Ljus rom, lime & socker' },
+        { name: 'Last Word', description: 'Gin, Maraschinolikör, Grön Chartreuse & lime' },
+        { name: 'Queen´s Dubonnet', description: 'Gin, Dubonnet & citronskiva' },
+        { name: 'White Cuban', description: 'Mörk rom, Kahlùa, grädde & choklad' }
+
        /*  { name: 'Flädermojito', description: 'Ljus rom, mynta från grannen, lime & hemmakokt flädersaft' },
         { name: 'Last Word', description: 'Gin, Maraschinolikör, Grön Chartreuse & lime' },
         { name: 'Queen´s Dubonnet', description: 'Gin, Dubonnet & citronskiva' },
