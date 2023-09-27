@@ -12,13 +12,16 @@ export function createMenu() {
     menuSection.classList.add('menu');
 
     const menuItems = [
-        { name: 'Flädermojito', description: 'Ljus rom, mynta från grannen, lime & hemmakokt flädersaft' },
+        { name: 'Negroni', description: 'Gin, söt vermouth & Campari' },
+        { name: 'Mojito', description: 'Ljus rom, lime, socker & mynta' },
+        { name: 'Flädermojito', description: 'Ljus rom, mynta från grannen, lime & hemmakokt flädersaft' }
+       /*  { name: 'Flädermojito', description: 'Ljus rom, mynta från grannen, lime & hemmakokt flädersaft' },
         { name: 'Last Word', description: 'Gin, Maraschinolikör, Grön Chartreuse & lime' },
         { name: 'Queen´s Dubonnet', description: 'Gin, Dubonnet & citronskiva' },
         { name: 'Paper planes', description: 'Bourbon, Aperol, Amaro Nonino & citron' },
         { name: 'Hagen Margaritha', description: 'Tequila Reposado, agavesirap & lime' },
         { name: 'Blueberry Daiquiri', description: 'Ljus rom, socker, lime & blåbär' },
-        { name: 'Hagen Old fashioned', description: 'Rågwhisky, karamelliserat socker & bitters' }
+        { name: 'Hagen Old fashioned', description: 'Rågwhisky, karamelliserat socker & bitters' } */
     ];
 
     menuItems.forEach(item => {
